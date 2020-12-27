@@ -29,6 +29,11 @@ h6 {
   font-size: 13px;
 }
 
+.Weather img {
+  height: 64px;
+  display: inline-block;
+}
+
 .Weather ul {
   margin: 0;
   padding: 0;
@@ -54,14 +59,15 @@ h6 {
   margin-top: 5px;
 }
 
-.Weather .description {
+.Weather .center {
   text-align: center;
 }
 
 .Weather .temperature {
   text-align: center;
-  font-size: 55px;
-  line-height: 1;
+  font-size: 50px;
+  line-height: 64px;
+  font-weight: 400;
 }
 
 .Weather .unit {
@@ -70,5 +76,4 @@ h6 {
   font-weight: 400;
   line-height: 1;
   top: -26px;
-  margin-left: 5px;
 }
