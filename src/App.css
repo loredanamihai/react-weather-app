@@ -1,0 +1,27 @@
+/* .App {
+  max-width: 450px;
+  margin: 30px auto;
+} */
+
+.weather-app {
+  max-width: 450px;
+  margin: 30px auto auto;
+}
+
+/* .weather-app {
+  max-width: 450px;
+  margin: 30px auto auto;
+  max-height: 800px;
+  min-height: 800px;
+  border-radius: 25px;
+   border: 1px solid #dadde1; 
+  background: #4c4c94 url("./image/bk_day.jpg") no-repeat;
+  background-size: contain;
+} */
+
+.App footer {
+  font-size: 80%;
+  font-weight: 400;
+  margin: 5px 0;
+  text-align: center;
+}
