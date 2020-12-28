@@ -29,12 +29,6 @@ h6 {
   font-size: 13px;
 }
 
-.Weather canvas {
-  margin-top: 5px;
-  margin-right: 10px;
-  display: inline-block;
-}
-
 .Weather ul {
   margin: 0;
   padding: 0;
@@ -48,16 +42,32 @@ h6 {
   line-height: 19px;
 }
 
+.Weather .change-search {
+  width: 75%;
+  margin: 0 auto;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
 .Weather .change {
   border: none;
   margin-top: 5px;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.Weather .change-button {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 .Weather .form-button {
   background-color: #ffff;
   border: none;
-  padding: 4px 12px;
   margin-top: 5px;
+  border-radius: 0 0.25rem 0.25rem 0;
+  line-height: 1.65;
+  background-color: #b94f80;
+  color: #ffff;
 }
 
 .Weather .center {
